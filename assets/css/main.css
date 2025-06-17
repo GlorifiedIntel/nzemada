@@ -457,6 +457,7 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
+  font-family: var(--nav-font);
   padding-bottom: 50px;
   position: relative;
 }
@@ -481,7 +482,7 @@ h6 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: var(--heading-font);
+  font-family: var(--nav-font);
 }
 
 .footer .footer-about p {
@@ -513,6 +514,7 @@ h6 {
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  font-family: var(--nav-font);
 }
 
 .footer .footer-links {
@@ -3767,6 +3769,8 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.sitename {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
