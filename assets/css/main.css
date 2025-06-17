@@ -6,7 +6,7 @@
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Nunito Sans",  sans-serif;
-  --nav-font: "Raleway",  sans-serif;
+  --nav-font: "Play", sans-serif;
 }
 
 /* Global Colors */
@@ -218,6 +218,8 @@ h6 {
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
+    
+
   }
 
   .navmenu ul {
@@ -236,7 +238,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 16px;
+    font-size: 19px;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
