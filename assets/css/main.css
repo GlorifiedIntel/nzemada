@@ -762,7 +762,7 @@ section,
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: var(--heading-font);
+  font-family: var(--nav-font);
 }
 
 /*--------------------------------------------------------------
@@ -1143,6 +1143,7 @@ section,
   font-size: 1.75rem;
   margin-bottom: 1.25rem;
   font-weight: 700;
+  font-family: var(--nav-font);
 }
 
 .about .testimonial-section .testimonial-intro p {
@@ -1329,6 +1330,7 @@ section,
 .services .service-card h3 a {
   color: var(--heading-color);
   transition: color 0.3s ease;
+  font-family: var(--nav-font);
 }
 
 .services .service-card h3 a span {
@@ -1649,6 +1651,7 @@ section,
 
 .call-to-action .features .feature-item span {
   font-weight: 500;
+  font-family: var(--nav-font);
 }
 
 .call-to-action .cta-buttons .btn {
@@ -2593,6 +2596,7 @@ section,
 
 .contact .contact-info-box .info-content h4 {
   font-size: 18px;
+  font-family: var(--nav-font);
   font-weight: 600;
   margin-bottom: 10px;
 }
